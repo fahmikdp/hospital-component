@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import FolderIcon from "@mui/icons-material/Folder";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 
-export default function MediaControlCard(props) {
+export default function MediaControlCard() {
   return (
     <Card
       sx={{
@@ -16,6 +16,7 @@ export default function MediaControlCard(props) {
         borderRadius: "0.429rem",
         bgcolor: "rgba(72, 181, 39, 0.5)",
         boxShadow: " 0px 2px 4px grey",
+        mr: 2,
       }}
       style={{ padding: "1.609rem 1.609rem" }}
     >
@@ -49,7 +50,7 @@ export default function MediaControlCard(props) {
             }}
             style={{ fontWeight: "600" }}
           >
-            Current Patient
+            Completed Patient
           </Typography>
           <Typography
             variant="body2"

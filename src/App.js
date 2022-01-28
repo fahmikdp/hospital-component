@@ -3,6 +3,10 @@ import Card from "./components/Card";
 import Cardfolder1 from "./components/Cardfolder1";
 import Cardfolder2 from "./components/Cardfolder2";
 import Cardfolder3 from "./components/Cardfolder3";
+import Cardexp from "./components/CardExpand";
+import List from "./components/List";
+import ListExp from "./components/ListExpand";
+import Listpag from "./components/ListPag";
 
 function App() {
   return (
@@ -14,6 +18,14 @@ function App() {
       </div>
       <br />
       <Card />
+      <br />
+      <List />
+      <br />
+      <Cardexp />
+      <br />
+      <ListExp />
+      <br />
+      <Listpag />
     </div>
   );
 }
